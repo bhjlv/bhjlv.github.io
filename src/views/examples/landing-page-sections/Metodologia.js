@@ -17,6 +17,7 @@ import dev_svg from '../../../assets/svg/rocket.svg'
 import documentation_svg from '../../../assets/svg/browser.svg'
 import validation_svg from '../../../assets/svg/finger.svg'
 import requirements_svg from '../../../assets/svg/wrench.svg'
+import undraw_roadmap from '../../../assets/svg/undraw_roadmap.svg'
 
 function Metodologia () {
     return (
@@ -33,54 +34,41 @@ function Metodologia () {
                     </h5>
                 </Col>
                 </Row>
-                <Container className="howework">
-                <Row>
-                    <Col className="workitem">
-                    <img src={requirements_svg} className="workimg" alt=""></img>
-                    <h5 className="worktitle">Estudo dos requisitos</h5>
-                    <h6 className="workdescription"> 
-                        Suspendisse vitae velit erat. Quisque volutpat libero id leo convallis, sed consequat nunc scelerisque. Ut.
-                    </h6>
-                    </Col>
-                    <Col className="workitem">
-                    <img src={brainstorm_svg} className="workimg" alt=""></img>
-                    <h5 className="worktitle">Brainstorm</h5>
-                    <h6 className="workdescription">
-                        Suspendisse vitae velit erat. Quisque volutpat libero id leo convallis, sed consequat nunc scelerisque. Ut.
-                    </h6>
-                    </Col>
-                    <Col className="workitem">
-                    <img src={validation_svg} className="workimg" alt=""></img>
-                    <h5 className="worktitle">Validação das ideias</h5>
-                    <h6 className="workdescription">
-                        Suspendisse vitae velit erat. Quisque volutpat libero id leo convallis, sed consequat nunc scelerisque. Ut.
-                    </h6>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col className="workitem">
-                    <img src={dev_svg} className="workimg" alt=""></img>
-                    <h5 className="worktitle">Desenvolvimento</h5>
-                    <h6 className="workdescription">
-                        Suspendisse vitae velit erat. Quisque volutpat libero id leo convallis, sed consequat nunc scelerisque. Ut.
-                    </h6>
-                    </Col>
-                    <Col className="workitem">
-                    <img src={communication_svg} className="workimg" alt=""></img>
-                    <h5 className="worktitle">Comunicação e entregas</h5>
-                    <h6 className="workdescription">
-                        Suspendisse vitae velit erat. Quisque volutpat libero id leo convallis, sed consequat nunc scelerisque. Ut.
-                    </h6>
-                    </Col>
-                    <Col className="workitem">
-                    <img src={documentation_svg} className="workimg" alt=""></img>
-                    <h5 className="worktitle">Documentação</h5>
-                    <h6 className="workdescription">
-                        Suspendisse vitae velit erat. Quisque volutpat libero id leo convallis, sed consequat nunc scelerisque. Ut.
-                    </h6>
+                <Row> 
+                    <Col>
+                        <Container className="howework">
+                            <Row>
+                                <Col className="workitem">
+                                <img src={requirements_svg} className="workimg" alt=""></img>
+                                <h5 className="worktitle">Estudo dos requisitos</h5>
+                                </Col>
+                                <Col className="workitem">
+                                <img src={brainstorm_svg} className="workimg" alt=""></img>
+                                <h5 className="worktitle">Brainstorm</h5>
+                                </Col>
+                                <Col className="workitem">
+                                <img src={validation_svg} className="workimg" alt=""></img>
+                                <h5 className="worktitle">Validação das ideias</h5>
+                                </Col>
+                            </Row> 
+                            <Row>
+                                <Col className="workitem">
+                                <img src={dev_svg} className="workimg" alt=""></img>
+                                <h5 className="worktitle">Desenvolvimento</h5>
+                                </Col>
+                                <Col className="workitem">
+                                <img src={communication_svg} className="workimg" alt=""></img>
+                                <h5 className="worktitle">Comunicação e entregas</h5>
+                                </Col>
+                                <Col className="workitem">
+                                <img src={documentation_svg} className="workimg" alt=""></img>
+                                <h5 className="worktitle">Documentação</h5>
+                                </Col>
+                            </Row>
+                        </Container>
                     </Col>
                 </Row>
-                </Container>
+                
                 <div className="text-center">
                 <button class="btn btn-default btn-lg">Saiba mais</button>
                 </div>
