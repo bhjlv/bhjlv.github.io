@@ -32,10 +32,19 @@
     width: 50px;
 }
 
-nav {
+.fixed-top {
     background: #010005;
 }
 
+.footer { 
+    background: #010005 !important;
+}
+
+.footer .copyright {
+    text-align: center !important;
+    float: unset;
+    color: white;
+}
 
 .workitem {
     margin: 20px;
