@@ -28,6 +28,10 @@
 
 }
 
+.tech-icon {
+    width: 50px;
+}
+
 .workitem {
     margin: 20px;
     display: flex;

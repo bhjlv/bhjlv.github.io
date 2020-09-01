@@ -10,6 +10,15 @@ import {
 //style
 import "../../../assets/css/custom.css"
 
+
+import api_svg from '../../../assets/svg/api.svg'
+import web_svg from '../../../assets/svg/www.svg'
+import desktop_svg from '../../../assets/svg/html.svg'
+import data_science_svg from '../../../assets/svg/statistics.svg'
+import ai_svg from '../../../assets/svg/student.svg'
+import mobile_svg from '../../../assets/svg/tablet.svg'
+
+
 function Solucoes() {
 
 
@@ -30,23 +39,29 @@ function Solucoes() {
 
                 <Row className="whatwedo">
                 <Col className="ml-auto mr-auto text-center" md="4">
+                    <img src={api_svg} className='tech-icon'/>
                     <h4>RESTful APIs e Back-end</h4>
                 </Col>
                 <Col className="ml-auto mr-auto text-center" md="4">
+                    <img src={web_svg} className='tech-icon'/>
                     <h4>Aplicações web</h4>
                 </Col>
                 <Col className="ml-auto mr-auto text-center" md="4">
+                    <img src={data_science_svg} className='tech-icon'/>
                     <h4>Ciência de Dados</h4>
                 </Col>
                 </Row>
                 <Row className="whatwedo">
                 <Col className="ml-auto mr-auto text-center" md="4">
+                    <img src={mobile_svg} className='tech-icon'/>
                     <h4>Aplicações mobile</h4>
                 </Col>
                 <Col className="ml-auto mr-auto text-center" md="4">
+                    <img src={ai_svg} className='tech-icon'/>
                     <h4>Soluções de Inteligência Artificial</h4>
                 </Col>
                 <Col className="ml-auto mr-auto text-center" md="4">
+                    <img src={desktop_svg} className='tech-icon'/>
                     <h4>Aplicações desktop</h4>
                 </Col>
                 </Row>
