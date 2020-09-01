@@ -32,6 +32,11 @@
     width: 50px;
 }
 
+nav {
+    background: #010005;
+}
+
+
 .workitem {
     margin: 20px;
     display: flex;
