@@ -46,26 +46,18 @@ function Time () {
                         <Button
                         className="btn-icon btn-round"
                         color="info"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://www.linkedin.com/in/bernardo-favoreto/"
+                        // onClick={(e) => e.preventDefault()}
                         >
-                        <i className="fab fa-twitter"></i>
+                        <i className="fab fa-linkedin"></i>
                         </Button>
                         <Button
                         className="btn-icon btn-round"
                         color="info"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://github.com/Bernardo-Favoreto"
+                        // onClick={(e) => e.preventDefault()}
                         >
-                        <i className="fab fa-instagram"></i>
-                        </Button>
-                        <Button
-                        className="btn-icon btn-round"
-                        color="info"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                        >
-                        <i className="fab fa-facebook-square"></i>
+                        <i className="fab fa-github"></i>
                         </Button>
                     </div>
                     </Col>
@@ -90,19 +82,21 @@ function Time () {
                         <Button
                         className="btn-icon btn-round"
                         color="info"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
-                        >
-                        <i className="fab fa-twitter"></i>
-                        </Button>
-                        <Button
-                        className="btn-icon btn-round"
-                        color="info"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://www.linkedin.com/in/hugosaito/"
+                        // onClick={(e) => e.preventDefault()}
                         >
                         <i className="fab fa-linkedin"></i>
                         </Button>
+
+                        <Button
+                        className="btn-icon btn-round"
+                        color="info"
+                        href="https://github.com/saitoHugo"
+                        // onClick={(e) => e.preventDefault()}
+                        >
+                        <i className="fab fa-github"></i>
+                        </Button>
+
                     </div>
                     </Col>
                     <Col>
@@ -126,27 +120,27 @@ function Time () {
                         <Button
                         className="btn-icon btn-round"
                         color="info"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://www.linkedin.com/in/jpmcarrilho/"
+                        // onClick={(e) => e.preventDefault()}
                         >
-                        <i className="fab fa-google-plus"></i>
+                        <i className="fab fa-linkedin"></i>
                         </Button>
                         <Button
                         className="btn-icon btn-round"
                         color="info"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://github.com/JpMCarrilho"
+                        // onClick={(e) => e.preventDefault()}
                         >
-                        <i className="fab fa-youtube"></i>
+                        <i className="fab fa-github"></i>
                         </Button>
-                        <Button
+                        {/* <Button
                         className="btn-icon btn-round"
                         color="info"
                         href="#pablo"
                         onClick={(e) => e.preventDefault()}
                         >
                         <i className="fab fa-twitter"></i>
-                        </Button>
+                        </Button> */}
                     </div>
                     </Col>
                     <Col>
@@ -170,27 +164,27 @@ function Time () {
                         <Button
                         className="btn-icon btn-round"
                         color="info"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://www.linkedin.com/in/lucassabbatini/"
+                        // onClick={(e) => e.preventDefault()}
                         >
-                        <i className="fab fa-google-plus"></i>
+                        <i className="fab fa-linkedin"></i>
                         </Button>
                         <Button
                         className="btn-icon btn-round"
                         color="info"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://github.com/LucasSabbatini"
+                        // onClick={(e) => e.preventDefault()}
                         >
-                        <i className="fab fa-youtube"></i>
+                        <i className="fab fa-github"></i>
                         </Button>
-                        <Button
+                        {/* <Button
                         className="btn-icon btn-round"
                         color="info"
                         href="#pablo"
                         onClick={(e) => e.preventDefault()}
                         >
                         <i className="fab fa-twitter"></i>
-                        </Button>
+                        </Button> */}
                     </div>
                     </Col>
 
@@ -215,27 +209,27 @@ function Time () {
                         <Button
                         className="btn-icon btn-round"
                         color="info"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://www.linkedin.com/in/vitor-bigelli-559380150/"
+                        // onClick={(e) => e.preventDefault()}
                         >
-                        <i className="fab fa-google-plus"></i>
+                        <i className="fab fa-linkedin"></i>
                         </Button>
                         <Button
                         className="btn-icon btn-round"
                         color="info"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://github.com/vitorbigelli"
+                        // onClick={(e) => e.preventDefault()}
                         >
-                        <i className="fab fa-youtube"></i>
+                        <i className="fab fa-github"></i>
                         </Button>
-                        <Button
+                        {/* <Button
                         className="btn-icon btn-round"
                         color="info"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://twitter.com/bigellivitor"
+                        // onClick={(e) => e.preventDefault()}
                         >
                         <i className="fab fa-twitter"></i>
-                        </Button>
+                        </Button> */}
                     </div>
                     </Col>
                 </Row>
