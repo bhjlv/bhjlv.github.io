@@ -81,22 +81,6 @@ function Metodologia () {
                     </Col>
                 </Row>
                 </Container>
-                {/* <div className="section-story-overview">
-                <Row>
-                    <Col md="12">
-                    <div
-                        className="section-images"
-                        style={{
-                        scale: "80%",
-                        backgroundImage:
-                            "url(" + require("assets/img/comotrabalhamos.png") + ")",
-                        }}
-                    >
-                    </div>
-                    </Col>
-                </Row>
-                </div> */}
-                <div className="separator separator-primary"></div>
                 <div className="text-center">
                 <button class="btn btn-default btn-lg">Saiba mais</button>
                 </div>

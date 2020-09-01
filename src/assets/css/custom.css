@@ -30,7 +30,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    height: auto;
 }
 
 .tech-icon {
@@ -56,11 +56,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    height: auto;
 }
     .workimg {
-        height: 70%;
-        width: 15%;
+        width: 50px;
     }
 
     .worktitle {
