@@ -17,7 +17,12 @@
 
 .technologies-list {
     font-size: 20px;
-    margin: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
 }
 
 .howework {

@@ -8,6 +8,7 @@ import {
 
 //style
 import "../../../assets/css/custom.css"
+import undraw_code_svg from '../../../assets/svg/undraw_code.svg'
 
 function Tecnologias () {
     return (
@@ -19,41 +20,40 @@ function Tecnologias () {
                 <Col className="ml-auto mr-auto text-center" md="8">
                     <h2 className="title">Tecnologias (a discutir essa ordem)</h2>
                     <h5 className="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim, tellus vitae elementum volutpat, neque sapien varius erat, quis eleifend purus risus porttitor elit. Donec. 
+                    Aplicamos tecnologias do estado-da-arte no desenvolvimento de nossas soluções. Sempre atualizados com lançamentos e atualizações de frameworks e ferramentas, buscamos sempre entregar o melhor produto possível para nossos clientes.
                     </h5>
                 </Col>
                 </Row>
                 <Container className="technologies">
-                <Row>
-                    <Col>
-                    <ul className="technologies-list">
-                        <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>NodeJS</li>
-                    </ul>
-                    </Col>
-                    <Col>
-                    <ul className="technologies-list">
-                        <li>React</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                    </ul>
-                    </Col>
-                    <Col>
-                    <ul className="technologies-list">
-                        <li>MongoDB</li>
-                        <li>Neo4j</li>
-                        <li>React Native</li>
-                    </ul>
-                    </Col>
-                    <Col>
-                    <ul className="technologies-list">
-                        <li>Docker</li>
-                        <li>Kubernetes</li>
-                        <li>Tensorflow/PyTorch</li>
-                    </ul>
-                    </Col>
-                </Row>
+                    <Row>
+                        <Col xs={6}> 
+                            <img src={undraw_code_svg}  />
+                        </Col>
+                        <Col xs={2}>
+                        <ul className="technologies-list">
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                        </Col>
+                        <Col xs={2}>
+                        <ul className="technologies-list">
+                            <li>React</li>
+                            <li>React Native</li>
+                            <li>NodeJS</li>
+                            <li>Neo4j</li>
+                        </ul>
+                        </Col>
+                        <Col xs={2}>
+                        <ul className="technologies-list">
+                            <li>MongoDB</li>
+                            <li>Docker</li>
+                            <li>Kubernetes</li>
+                            <li>Tensorflow/PyTorch</li>
+                        </ul>
+                        </Col>
+                    </Row>
                 </Container>
                 <div className="separator separator-primary"></div>
                 
