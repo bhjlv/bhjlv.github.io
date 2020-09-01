@@ -9,6 +9,11 @@ import {
 //assets
 import "../../../assets/css/custom.css"
 
+import joao_picture from '../../../assets/img/joao.jpeg'
+import lucas_picture from '../../../assets/img/lucas.jpeg'
+import bernardo_picture from '../../../assets/img/bernardo.jpeg'
+import hugo_picture from '../../../assets/img/hugo.jpeg'
+import vitor_picture from '../../../assets/img/vitor.JPG'
 
 
 
@@ -20,16 +25,16 @@ function Time () {
                 <h2 className="title">Here is our team</h2>
                 <div className="team">
                 <Row>
-                    <Col md="4">
+                    <Col>
                     <div className="team-player">
                         <img
                         alt="..."
                         className="rounded-circle img-fluid img-raised"
-                        src={require("assets/img/avatar.jpg")}
+                        src={bernardo_picture}
                         ></img>
-                        <h4 className="title">Romina Hadid</h4>
-                        <p className="category text-info">Model</p>
-                        <p className="description">
+                        <h4 className="title">Bernardo <br/>Favoreto</h4>
+                        <p className="category text-info">Engenheiro de Inteligência Artificial</p>
+                        {/* <p className="description">
                         You can write here details about one of your team members.
                         You can give more details about what they do. Feel free to
                         add some{" "}
@@ -37,7 +42,7 @@ function Time () {
                             links
                         </a>{" "}
                         for people to be able to follow them outside the site.
-                        </p>
+                        </p> */}
                         <Button
                         className="btn-icon btn-round"
                         color="info"
@@ -64,16 +69,16 @@ function Time () {
                         </Button>
                     </div>
                     </Col>
-                    <Col md="4">
+                    <Col>
                     <div className="team-player">
                         <img
                         alt="..."
                         className="rounded-circle img-fluid img-raised"
-                        src={require("assets/img/ryan.jpg")}
+                        src={hugo_picture}
                         ></img>
-                        <h4 className="title">Ryan Tompson</h4>
-                        <p className="category text-info">Designer</p>
-                        <p className="description">
+                        <h4 className="title">Hugo <br/>Saito</h4>
+                        <p className="category text-info">Gerente de Projetos e<br/>Desenvolvedor</p>
+                        {/* <p className="description">
                         You can write here details about one of your team members.
                         You can give more details about what they do. Feel free to
                         add some{" "}
@@ -81,7 +86,7 @@ function Time () {
                             links
                         </a>{" "}
                         for people to be able to follow them outside the site.
-                        </p>
+                        </p> */}
                         <Button
                         className="btn-icon btn-round"
                         color="info"
@@ -100,16 +105,16 @@ function Time () {
                         </Button>
                     </div>
                     </Col>
-                    <Col md="4">
+                    <Col>
                     <div className="team-player">
                         <img
                         alt="..."
                         className="rounded-circle img-fluid img-raised"
-                        src={require("assets/img/eva.jpg")}
+                        src={joao_picture}
                         ></img>
-                        <h4 className="title">Eva Jenner</h4>
-                        <p className="category text-info">Fashion</p>
-                        <p className="description">
+                        <h4 className="title">João Pedro <br/> Carrilho</h4>
+                        <p className="category text-info">Back-End e <br/>Banco de dados</p>
+                        {/* <p className="description">
                         You can write here details about one of your team members.
                         You can give more details about what they do. Feel free to
                         add some{" "}
@@ -117,7 +122,96 @@ function Time () {
                             links
                         </a>{" "}
                         for people to be able to follow them outside the site.
-                        </p>
+                        </p> */}
+                        <Button
+                        className="btn-icon btn-round"
+                        color="info"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                        >
+                        <i className="fab fa-google-plus"></i>
+                        </Button>
+                        <Button
+                        className="btn-icon btn-round"
+                        color="info"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                        >
+                        <i className="fab fa-youtube"></i>
+                        </Button>
+                        <Button
+                        className="btn-icon btn-round"
+                        color="info"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                        >
+                        <i className="fab fa-twitter"></i>
+                        </Button>
+                    </div>
+                    </Col>
+                    <Col>
+                    <div className="team-player">
+                        <img
+                        alt="..."
+                        className="rounded-circle img-fluid img-raised"
+                        src={lucas_picture}
+                        ></img>
+                        <h4 className="title">Lucas <br/>Sabbatini</h4>
+                        <p className="category text-info">Back-end e Segurança</p>
+                        {/* <p className="description">
+                        You can write here details about one of your team members.
+                        You can give more details about what they do. Feel free to
+                        add some{" "}
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                            links
+                        </a>{" "}
+                        for people to be able to follow them outside the site.
+                        </p> */}
+                        <Button
+                        className="btn-icon btn-round"
+                        color="info"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                        >
+                        <i className="fab fa-google-plus"></i>
+                        </Button>
+                        <Button
+                        className="btn-icon btn-round"
+                        color="info"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                        >
+                        <i className="fab fa-youtube"></i>
+                        </Button>
+                        <Button
+                        className="btn-icon btn-round"
+                        color="info"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                        >
+                        <i className="fab fa-twitter"></i>
+                        </Button>
+                    </div>
+                    </Col>
+
+                    <Col>
+                    <div className="team-player">
+                        <img
+                        alt="..."
+                        className="rounded-circle img-fluid img-raised"
+                        src={vitor_picture}
+                        ></img>
+                        <h4 className="title">Vitor <br/> Bigelli</h4>
+                        <p className="category text-info">UI/UX e <br/> Front-End</p>
+                        {/* <p className="description">
+                        You can write here details about one of your team members.
+                        You can give more details about what they do. Feel free to
+                        add some{" "}
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                            links
+                        </a>{" "}
+                        for people to be able to follow them outside the site.
+                        </p> */}
                         <Button
                         className="btn-icon btn-round"
                         color="info"

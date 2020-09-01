@@ -48,6 +48,10 @@
     color: white;
 }
 
+.category {
+    text-transform: none;
+}
+
 .workitem {
     margin: 0;
     padding: 0;
