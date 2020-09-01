@@ -1,0 +1,52 @@
+
+.description {
+    font-weight: 400;
+}
+
+.whatwedo {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.technologies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.technologies-list {
+    font-size: 20px;
+    margin: 30px;
+}
+
+.howework {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.workitem {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+    .workimg {
+        height: 70%;
+        width: 15%;
+    }
+
+    .worktitle {
+        font-weight: 600;
+    }
+
+    .workdescription {
+        font-weight: 400;
+        text-transform: none;
+        text-align: justify;
+        text-justify: inter-character;
+    }
