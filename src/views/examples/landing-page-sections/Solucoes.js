@@ -30,7 +30,7 @@ function Solucoes() {
 
                 <Row className="whatwedo">
                 <Col className="ml-auto mr-auto text-center" md="4">
-                    <h4>Restful APIs e Back-end</h4>
+                    <h4>RESTful APIs e Back-end</h4>
                 </Col>
                 <Col className="ml-auto mr-auto text-center" md="4">
                     <h4>Aplicações web</h4>
