@@ -16,13 +16,19 @@
 }
 
 .technologies-list {
-    font-size: 18px;
-    height: 100%;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: left;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.technologies-list .col {
+    text-align: center;
+}
+
+.technologies-list p {
+    font-size: 14px;
 }
 
 .howework {
