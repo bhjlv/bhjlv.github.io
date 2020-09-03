@@ -27,6 +27,15 @@
     text-align: center;
 }
 
+.technologies-list .col:hover {
+    color: coral;
+    font-weight: bold;
+}
+
+.technologies-list .col:hover p {
+    font-weight: bold;
+}
+
 .technologies-list p {
     font-size: 14px;
 }
