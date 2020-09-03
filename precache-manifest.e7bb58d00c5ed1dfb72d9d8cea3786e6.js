@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "113c145683948584cd81bc2f3ffd2ae4",
+    "revision": "db510765e4f69e20aa8b565df3a39717",
     "url": "/index.html"
   },
   {
-    "revision": "a57ac301b58a5cfa33f3",
-    "url": "/static/css/main.b2d09baa.chunk.css"
+    "revision": "2c01c5c91e4e820b6b3d",
+    "url": "/static/css/main.983e2206.chunk.css"
   },
   {
-    "revision": "ae6d04b3b70a858409c1",
-    "url": "/static/js/2.38881ba2.chunk.js"
+    "revision": "992bcb7b774b20f458b7",
+    "url": "/static/js/2.6d292d49.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/static/js/2.38881ba2.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6d292d49.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a57ac301b58a5cfa33f3",
-    "url": "/static/js/main.218f9a5e.chunk.js"
+    "revision": "2c01c5c91e4e820b6b3d",
+    "url": "/static/js/main.c2509437.chunk.js"
   },
   {
     "revision": "f3e3d39c6956ba81638d",
@@ -76,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/creative-tim-white-slim2.f7cb2d39.png"
   },
   {
+    "revision": "fac293f9582f541002da1f740fc688f3",
+    "url": "/static/media/deepwild_logo.fac293f9.png"
+  },
+  {
     "revision": "ea906661b3af7b65f7c79c9c951d9f50",
     "url": "/static/media/finger.ea906661.svg"
   },
@@ -126,6 +130,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ebec31f5ce59f908db84d86aed5947f",
     "url": "/static/media/nucleo-outline.8ebec31f.woff2"
+  },
+  {
+    "revision": "4f576c5acef8a092642ec600124a06ac",
+    "url": "/static/media/raras_logo.4f576c5a.png"
   },
   {
     "revision": "93f54485fe2404d9bce57101542c3864",

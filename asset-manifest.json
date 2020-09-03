@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2d09baa.chunk.css",
-    "main.js": "/static/js/main.218f9a5e.chunk.js",
-    "main.js.map": "/static/js/main.218f9a5e.chunk.js.map",
+    "main.css": "/static/css/main.983e2206.chunk.css",
+    "main.js": "/static/js/main.c2509437.chunk.js",
+    "main.js.map": "/static/js/main.c2509437.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.730ad540.js",
     "runtime-main.js.map": "/static/js/runtime-main.730ad540.js.map",
-    "static/js/2.38881ba2.chunk.js": "/static/js/2.38881ba2.chunk.js",
-    "static/js/2.38881ba2.chunk.js.map": "/static/js/2.38881ba2.chunk.js.map",
+    "static/js/2.6d292d49.chunk.js": "/static/js/2.6d292d49.chunk.js",
+    "static/js/2.6d292d49.chunk.js.map": "/static/js/2.6d292d49.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.52b21f086f59e384c4b897540b500f56.js": "/precache-manifest.52b21f086f59e384c4b897540b500f56.js",
+    "precache-manifest.e7bb58d00c5ed1dfb72d9d8cea3786e6.js": "/precache-manifest.e7bb58d00c5ed1dfb72d9d8cea3786e6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.b2d09baa.chunk.css.map": "/static/css/main.b2d09baa.chunk.css.map",
-    "static/js/2.38881ba2.chunk.js.LICENSE.txt": "/static/js/2.38881ba2.chunk.js.LICENSE.txt",
+    "static/css/main.983e2206.chunk.css.map": "/static/css/main.983e2206.chunk.css.map",
+    "static/js/2.6d292d49.chunk.js.LICENSE.txt": "/static/js/2.6d292d49.chunk.js.LICENSE.txt",
     "static/media/api.svg": "/static/media/api.8cb65af6.svg",
     "static/media/bernardo.jpeg": "/static/media/bernardo.62321fbc.jpeg",
     "static/media/bg.png": "/static/media/bg.ee4ddd6c.png",
@@ -25,6 +25,7 @@
     "static/media/browser.svg": "/static/media/browser.88954ab7.svg",
     "static/media/communication.svg": "/static/media/communication.5c2a59e0.svg",
     "static/media/creative-tim-white-slim2.png": "/static/media/creative-tim-white-slim2.f7cb2d39.png",
+    "static/media/deepwild_logo.png": "/static/media/deepwild_logo.fac293f9.png",
     "static/media/finger.svg": "/static/media/finger.ea906661.svg",
     "static/media/header.jpg": "/static/media/header.ffcc99c4.jpg",
     "static/media/html.svg": "/static/media/html.1a2c84eb.svg",
@@ -35,6 +36,7 @@
     "static/media/login.jpg": "/static/media/login.b2101951.jpg",
     "static/media/lucas.jpeg": "/static/media/lucas.1506fc6a.jpeg",
     "static/media/now-ui-kit.scss?v=1.4.0": "/static/media/nucleo-outline.8ebec31f.woff2",
+    "static/media/raras_logo.png": "/static/media/raras_logo.4f576c5a.png",
     "static/media/rocket.svg": "/static/media/rocket.93f54485.svg",
     "static/media/ryan.jpg": "/static/media/ryan.f217f346.jpg",
     "static/media/statistics.svg": "/static/media/statistics.bfe1b16a.svg",
@@ -48,8 +50,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.730ad540.js",
-    "static/js/2.38881ba2.chunk.js",
-    "static/css/main.b2d09baa.chunk.css",
-    "static/js/main.218f9a5e.chunk.js"
+    "static/js/2.6d292d49.chunk.js",
+    "static/css/main.983e2206.chunk.css",
+    "static/js/main.c2509437.chunk.js"
   ]
 }
