@@ -11,6 +11,7 @@ import Solucoes from "./landing-page-sections/Solucoes.js";
 import Tecnologias from "./landing-page-sections/Tecnologias.js";
 import Metodologia from "./landing-page-sections/Metodologia.js";
 import Portfolio from "./landing-page-sections/Portfolio.js";
+import Projects from "./landing-page-sections/Projects.js";
 import Time from "./landing-page-sections/Time.js";
 import Contato from "./landing-page-sections/Contato.js";
 
@@ -37,7 +38,7 @@ function CustomLandingPage() {
         <Solucoes />
         <Tecnologias />
         <Metodologia />
-        <Portfolio />
+        <Projects />
         <Time />
         <Contato />
         <CustomFooter />

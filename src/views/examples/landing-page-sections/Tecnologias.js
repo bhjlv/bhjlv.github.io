@@ -26,10 +26,10 @@ function Tecnologias () {
                 </Row>
                 <Container className="technologies">
                     <Row>
-                        <Col xs={6}> 
+                        <Col xs={12} md={6}> 
                             <img src={undraw_code_svg}  />
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={12} sm={4} md={4}>
                         <ul className="technologies-list">
                             <li>Python</li>
                             <li>JavaScript</li>
@@ -37,7 +37,7 @@ function Tecnologias () {
                             <li>CSS</li>
                         </ul>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={12} sm={4}  md={4}>
                         <ul className="technologies-list">
                             <li>React</li>
                             <li>React Native</li>
@@ -45,7 +45,7 @@ function Tecnologias () {
                             <li>Neo4j</li>
                         </ul>
                         </Col>
-                        <Col xs={2}>
+                        <Col xs={12} sm={4} md={4}>
                         <ul className="technologies-list">
                             <li>MongoDB</li>
                             <li>Docker</li>

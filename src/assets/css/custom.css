@@ -52,6 +52,18 @@
     text-transform: none;
 }
 
+.project-card-img {
+    display: block;
+    max-width: 300px;
+    margin: auto;
+}
+
+.card {
+    width: calc(100% - 40px);
+    align-self: center;
+    margin: 20px;
+}
+
 .workitem {
     margin: 0;
     padding: 0;
