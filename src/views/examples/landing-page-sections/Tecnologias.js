@@ -29,7 +29,12 @@ import {
     SiFlask,
     SiDocker,
     SiNodeDotJs,
-    SiReact
+    SiReact,
+    SiJavascript,
+    SiPython, 
+    SiMongodb, 
+    SiHtml5, 
+    SiCss3
 } from 'react-icons/si'
 
 
@@ -59,19 +64,19 @@ function Tecnologias () {
                             <Container className='technologies-list'>
                                 <Row>
                                     <Col>
-                                        <DiPython />
+                                        <SiPython />
                                         <p> Python </p>
                                     </Col>
                                     <Col>
-                                        <DiJavascript/>
+                                        <SiJavascript/>
                                         <p> JavaScript </p>
                                     </Col>
                                     <Col>
-                                        <DiHtml5/>
+                                        <SiHtml5/>
                                         <p>HTML</p>
                                     </Col>
                                     <Col> 
-                                        <DiCss3 />                               
+                                        <SiCss3 />                               
                                         <p>CSS</p>
                                     </Col>
                                 </Row>
@@ -95,7 +100,7 @@ function Tecnologias () {
                                 </Row>
                                 <Row>
                                     <Col>
-                                        <DiMongodb />
+                                        <SiMongodb />
                                         <p>MongoDB</p>
                                     </Col>
                                     <Col>
