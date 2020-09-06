@@ -17,7 +17,7 @@ import vitor_picture from '../../../assets/img/vitor.JPG'
 
 
 
-function Time () {
+function Team () {
     return (
         <>
         <div className="section section-team text-center">
@@ -248,4 +248,4 @@ function Time () {
     );
 }
 
-export default Time
+export default Team
