@@ -4,8 +4,12 @@ import React from "react";
 import {
     Container,
     Row,
+    Button,
     Col
 } from "reactstrap";
+
+import { Link } from "react-router-dom";
+
 
 //style
 import "../../../assets/css/custom.css"
@@ -29,7 +33,7 @@ function Solucoes() {
             <Container>
                 <Row>
                 <Col className="ml-auto mr-auto text-center" md="8">
-                    <h2 className="title">Nossas soluções / O que fazemos</h2>
+                    <h2 className="title">Nossas soluções</h2>
                     <h5 className="description">
                     Somos um time de programadores com experiência em desenvolvimento de soluções end-to-end personalizadas de alta performance, escalabilidade e segurança. Sempre provendo serviços de alta qualidade e preço justo.
                     </h5>
@@ -66,27 +70,12 @@ function Solucoes() {
                 </Col>
                 </Row>
                 <div className="text-center">
-                <button class="btn btn-default btn-lg">
-                    Saiba mais
-                </button>
+                    <Button className="btn btn-default btn-lg" to="/solucoes" tag={Link}>
+                        Saiba mais
+                    </Button>
                 </div>
                 <div className="separator separator-primary"></div>
                 <div className="section-story-overview"></div>
-                {/* <div className="section-story-overview">
-                <Row>
-                    <Col md="12">
-                    <div
-                        className="section-images"
-                        style={{
-                        scale: "80%",
-                        backgroundImage:
-                            "url(" + require("assets/img/screenshot.png") + ")",
-                        }}
-                    >
-                    </div>
-                    </Col>
-                </Row>
-                </div> */}
             </Container>
             </div>
 

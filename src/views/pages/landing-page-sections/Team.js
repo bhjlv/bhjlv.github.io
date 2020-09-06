@@ -72,7 +72,7 @@ function Team () {
                         src={hugo_picture}
                         ></img>
                         <h4 className="title">Hugo Saito</h4>
-                        <p className="category text-info">Gerente de Projetos eDesenvolvedor</p>
+                        <p className="category text-info">Gerente de Projetos e Desenvolvedor</p>
                         {/* <p className="description">
                         You can write here details about one of your team members.
                         You can give more details about what they do. Feel free to

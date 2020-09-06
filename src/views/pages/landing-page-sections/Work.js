@@ -3,9 +3,11 @@ import React from "react";
 import {
     Container,
     Row,
+    Button,
     Col
 } from "reactstrap";
 
+import { Link } from "react-router-dom";
 //assets
 import "../../../assets/css/custom.css"
 import laptop from '../../../assets/img/laptop.png' 
@@ -30,7 +32,7 @@ function Work () {
                 <Col className="ml-auto mr-auto text-center" md="8">
                     <h2 className="title">Como trabalhamos</h2>
                     <h5 className="description">
-                    Etiam faucibus ipsum erat, at rutrum lacus tincidunt sed. Phasellus in efficitur mauris. Mauris ac rhoncus enim. Nulla eleifend hendrerit quam, et varius odio elementum. 
+                    Nossa metodologia de trabalho leva em conta todas as etapas necessárias para o desenvolvimento da sua solução. Colocamos você no centro de todo o processo, alinhando as necessidades e expectativas para que a eficiência seja máxima. 
                     </h5>
                 </Col>
                 </Row>
@@ -70,7 +72,9 @@ function Work () {
                 </Row>
                 
                 <div className="text-center">
-                <button class="btn btn-default btn-lg">Saiba mais</button>
+                <Button className="btn btn-default btn-lg" to="/metodologias" tag={Link}>
+                        Saiba mais
+                </Button>
                 </div>
             </Container>
             </div>

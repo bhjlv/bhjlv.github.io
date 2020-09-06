@@ -3,8 +3,12 @@ import React from "react";
 import {
     Container,
     Row,
-    Col
+    Col,
+    Button
 } from "reactstrap";
+
+import { Link } from "react-router-dom";
+
 
 //style
 import "../../../assets/css/custom.css"
@@ -51,7 +55,7 @@ function Tecnologias () {
                 <Col className="ml-auto mr-auto text-center" md="8">
                     <h2 className="title">Tecnologias (a discutir essa ordem)</h2>
                     <h5 className="description">
-                    Aplicamos tecnologias do estado-da-arte no desenvolvimento de nossas soluções. Sempre atualizados com lançamentos e atualizações de frameworks e ferramentas, buscamos sempre entregar o melhor produto possível para nossos clientes.
+                    Aplicamos tecnologias do estado-da-arte no desenvolvimento de nossas soluções. Sempre em dia com lançamentos e atualizações de frameworks e ferramentas, buscamos sempre entregar o melhor produto possível para nossos clientes.
                     </h5>
                 </Col>
                 </Row>
@@ -139,23 +143,10 @@ function Tecnologias () {
                     </Row>
                 </Container>
                 <div className="separator separator-primary"></div>
-                
-                {/* <Row>
-                    <Col md="12">
-                    <div
-                        className="section-images"
-                        style={{
-                        scale: "80%",
-                        backgroundImage:
-                            "url(" + require("assets/img/technologies.png") + ")",
-                        }}
-                    >
-                    </div>
-                    </Col>
-                </Row> */}
-                {/* <div className="separator separator-primary"></div> */}
                 <div className="text-center">
-                <button class="btn btn-default btn-lg">Detalhes</button>
+                    <Button className="btn btn-default btn-lg" to="/tecnologias" tag={Link}>
+                        Detalhes
+                    </Button>
                 </div>
             </Container>
             </div>
