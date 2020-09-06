@@ -119,27 +119,27 @@ function ExamplesNavbar() {
           >
             <Nav navbar>
               <NavItem>
-                <NavLink to="/index" tag={Link}>
+                <NavLink to="/solucoes" tag={Link}>
                   <h5>Soluções</h5>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
+                <NavLink to="/tecnologias" tag={Link}>
                   <h5>Tecnologias</h5>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/index" tag={Link}>
+                <NavLink to="/metodologias" tag={Link}>
                   <h5>Como trabalhamos</h5>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/index" tag={Link}>
+                <NavLink to="/portfolio" tag={Link}>
                   <h5>Portfólio</h5>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/index" tag={Link}>
+                <NavLink to="/equipe" tag={Link}>
                   <h5>Equipe</h5>
                 </NavLink>
               </NavItem>

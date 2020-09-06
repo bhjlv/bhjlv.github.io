@@ -19,7 +19,7 @@ import validation_svg from '../../../assets/svg/finger.svg'
 import requirements_svg from '../../../assets/svg/wrench.svg'
 import undraw_roadmap from '../../../assets/svg/undraw_roadmap.svg'
 
-function Metodologia () {
+function Work () {
     return (
         <>
             <div className="separator separator-primary"></div>
@@ -78,4 +78,4 @@ function Metodologia () {
     );
 }
 
-export default Metodologia
+export default Work

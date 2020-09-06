@@ -27,9 +27,15 @@ import "assets/demo/nucleo-icons-page-styles.css?v=1.4.0";
 // pages for this kit
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
-import LoginPage from "views/examples/LoginPage.js";
-import LandingPage from "views/examples/CustomLandingPage.js";
-import ProfilePage from "views/examples/ProfilePage.js";
+import LoginPage from "views/pages/LoginPage.js";
+import LandingPage from "views/pages/CustomLandingPage.js";
+import ProfilePage from "views/pages/ProfilePage.js";
+import SolutionsPage from "views/pages/SolutionsPage.js";
+import TechsPage from "views/pages/TechsPage.js";
+import WorkPage from "views/pages/WorkPage.js";
+import PortfolioPage from "views/pages/PortfolioPage.js";
+import TeamPage from "views/pages/TeamPage.js";
+
 
 ReactDOM.render(
   <BrowserRouter>
@@ -52,6 +58,29 @@ ReactDOM.render(
           path="/login-page"
           render={(props) => <LoginPage {...props} />}
         />
+        {/* Custom routes (não sei se é o jeito mais correto de fazer) */}
+        <Route 
+          path="/solucoes"
+          component={SolutionsPage}
+        />
+        <Route 
+          path="/tecnologias"
+          component={TechsPage}
+        />
+        <Route 
+          path="/metodologias"
+          component={WorkPage}
+        />
+        <Route 
+          path="/portfolio"
+          component={PortfolioPage}
+        />
+        <Route 
+          path="/equipe"
+          component={TeamPage}
+        />
+        {/* End custom routes */}
+
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
       </Switch>

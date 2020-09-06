@@ -9,10 +9,9 @@ import CustomFooter from "components/Footers/CustomFooter.js";
 // landing page sections
 import Solucoes from "./landing-page-sections/Solucoes.js";
 import Tecnologias from "./landing-page-sections/Tecnologias.js";
-import Metodologia from "./landing-page-sections/Metodologia.js";
-import Portfolio from "./landing-page-sections/Portfolio.js";
+import Work from "./landing-page-sections/Work.js";
 import Projects from "./landing-page-sections/Projects.js";
-import Time from "./landing-page-sections/Time.js";
+import Team from "./landing-page-sections/Team.js";
 import Contato from "./landing-page-sections/Contato.js";
 
 
@@ -37,9 +36,9 @@ function CustomLandingPage() {
         <CustomPageHeader />
         <Solucoes />
         <Tecnologias />
-        <Metodologia />
+        <Work />
         <Projects />
-        <Time />
+        <Team />
         <Contato />
         <CustomFooter />
       </div>
