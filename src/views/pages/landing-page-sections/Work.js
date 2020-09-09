@@ -40,29 +40,29 @@ function Work () {
                     <Col>
                         <Container className="howework">
                             <Row>
-                                <Col className="workitem">
+                                <Col className="workitem" xs={12} md={4}>
                                 <img src={requirements_svg} className="workimg" alt=""></img>
                                 <h5 className="worktitle">Estudo dos requisitos</h5>
                                 </Col>
-                                <Col className="workitem">
+                                <Col className="workitem" xs={12} md={4}>
                                 <img src={brainstorm_svg} className="workimg" alt=""></img>
                                 <h5 className="worktitle">Brainstorm</h5>
                                 </Col>
-                                <Col className="workitem">
+                                <Col className="workitem" xs={12} md={4}>
                                 <img src={validation_svg} className="workimg" alt=""></img>
                                 <h5 className="worktitle">Validação das ideias</h5>
                                 </Col>
                             </Row> 
                             <Row>
-                                <Col className="workitem">
+                                <Col className="workitem" xs={12} md={4}>
                                 <img src={dev_svg} className="workimg" alt=""></img>
                                 <h5 className="worktitle">Desenvolvimento</h5>
                                 </Col>
-                                <Col className="workitem">
+                                <Col className="workitem" xs={12} md={4}>
                                 <img src={communication_svg} className="workimg" alt=""></img>
                                 <h5 className="worktitle">Comunicação e entregas</h5>
                                 </Col>
-                                <Col className="workitem">
+                                <Col className="workitem" xs={12} md={4}>
                                 <img src={documentation_svg} className="workimg" alt=""></img>
                                 <h5 className="worktitle">Documentação</h5>
                                 </Col>

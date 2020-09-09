@@ -13,7 +13,7 @@ function TechsComponent() {
             <h2>Testando component</h2>
         </div>
 
-
+        
         
         </>
     );

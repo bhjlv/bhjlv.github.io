@@ -53,95 +53,99 @@ function Tecnologias () {
                 {/* <------------------------------ TECNOLOGIAS ------------------------------> */}
                 <Row>
                 <Col className="ml-auto mr-auto text-center" md="8">
-                    <h2 className="title">Tecnologias (a discutir essa ordem)</h2>
+                    <h2 className="title">Tecnologias</h2>
                     <h5 className="description">
                     Aplicamos tecnologias do estado-da-arte no desenvolvimento de nossas soluções. Sempre em dia com lançamentos e atualizações de frameworks e ferramentas, buscamos sempre entregar o melhor produto possível para nossos clientes.
                     </h5>
                 </Col>
                 </Row>
-                <Container className="technologies">
-                    <Row>
-                        <Col xs={12} md={6}> 
-                            <img src={undraw_code_svg} className='technologies-image'  />
-                        </Col>
-                        <Col xs={12} md={6}>
-                            <Container className='technologies-list'>
-                                <Row>
-                                    <Col>
-                                        <SiPython />
-                                        <p> Python </p>
-                                    </Col>
-                                    <Col>
-                                        <SiJavascript/>
-                                        <p> JavaScript </p>
-                                    </Col>
-                                    <Col>
-                                        <SiHtml5/>
-                                        <p>HTML</p>
-                                    </Col>
-                                    <Col> 
-                                        <SiCss3 />                               
-                                        <p>CSS</p>
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col>   
-                                        <SiReact />
-                                        <p>React</p>
-                                    </Col>
-                                    <Col>
-                                        <SiReact />
-                                        <p>React Native</p>
-                                    </Col>
-                                    <Col>
-                                        <SiNodeDotJs />
-                                        <p>NodeJS</p>
-                                    </Col>
-                                    <Col>  
-                                        <SiFlask />          
-                                        <p>Flask</p>
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col>
-                                        <SiMongodb />
-                                        <p>MongoDB</p>
-                                    </Col>
-                                    <Col>
-                                        <SiNeo4J />          
-                                        <p>Neo4j</p>
-                                    </Col>
-                                    <Col>
-                                        <SiPostgresql />
-                                        <p>PostgressQL</p>
-                                    </Col>
-                                    <Col>      
-                                        <SiRabbitmq />      
-                                        <p>RabbitMQ</p>
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col>
-                                        <SiDocker />
-                                        <p>Docker</p>
-                                    </Col>
-                                    <Col>
-                                        <SiKubernetes />
-                                        <p>Kubernetes</p>
-                                    </Col>
-                                    <Col>
-                                        <SiTensorflow />      
-                                        <p>Tensorflow</p>
-                                    </Col>
-                                    <Col>      
-                                        <SiPytorch />      
-                                        <p> PyTorch</p>
-                                    </Col>
-                                </Row>
-                            </Container>
-                        </Col>
-                    </Row>
-                </Container>
+                <Row>
+                    <Col>
+                        <Container className="technologies">
+                        <Row>
+                            <Col xs={12} sm={12} md={6}> 
+                                <img src={undraw_code_svg} className='technologies-image'  />
+                            </Col>
+                            <Col xs={12} sm={12} md={6}>
+                                <Container className='technologies-list'>
+                                    <Row>
+                                        <Col xs={3}>
+                                            <SiPython />
+                                            <p> Python </p>
+                                        </Col>
+                                        <Col xs={3}>
+                                            <SiJavascript/>
+                                            <p> JavaScript </p>
+                                        </Col>
+                                        <Col xs={3}>
+                                            <SiHtml5/>
+                                            <p>HTML</p>
+                                        </Col>
+                                        <Col xs={3}>
+                                            <SiCss3 />                               
+                                            <p>CSS</p>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col xs={3}>
+                                            <SiReact />
+                                            <p>React</p>
+                                        </Col>
+                                        <Col xs={3}>
+                                            <SiReact />
+                                            <p>React Native</p>
+                                        </Col>
+                                        <Col xs={3}>
+                                            <SiNodeDotJs />
+                                            <p>NodeJS</p>
+                                        </Col>
+                                        <Col xs={3}>
+                                            <SiFlask />          
+                                            <p>Flask</p>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col xs={3}>
+                                            <SiMongodb />
+                                            <p>MongoDB</p>
+                                        </Col>
+                                        <Col xs={3}>
+                                            <SiNeo4J />          
+                                            <p>Neo4j</p>
+                                        </Col>
+                                        <Col xs={3}>
+                                            <SiPostgresql />
+                                            <p>PostgressQL</p>
+                                        </Col>
+                                        <Col xs={3}> 
+                                            <SiRabbitmq />      
+                                            <p>RabbitMQ</p>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col xs={3}>
+                                            <SiDocker />
+                                            <p>Docker</p>
+                                        </Col>
+                                        <Col xs={3}>
+                                            <SiKubernetes />
+                                            <p>Kubernetes</p>
+                                        </Col>
+                                        <Col xs={3}>
+                                            <SiTensorflow />      
+                                            <p>Tensorflow</p>
+                                        </Col>
+                                        <Col xs={3}>   
+                                            <SiPytorch />      
+                                            <p> PyTorch</p>
+                                        </Col>
+                                    </Row>
+                                </Container>
+                            </Col>
+                        </Row>
+                    </Container>
+                    </Col>
+                </Row>
                 <div className="separator separator-primary"></div>
                 <div className="text-center">
                     <Button className="btn btn-default btn-lg" to="/tecnologias" tag={Link}>
