@@ -34,7 +34,7 @@ function WorkComponent() {
                         <Col className='text-left'>
                             <h4> Estudo de requisitos</h4>
                             <p>
-                                Suspendisse a nulla gravida, congue metus at, aliquam augue. Aenean congue vulputate egestas. Donec vulputate dui id sapien aliquet congue. Quisque quis erat vitae elit porttitor fringilla id sed nibh. Suspendisse eget ligula bibendum, aliquam quam in, efficitur lectus. Praesent lobortis, ante at suscipit sagittis, neque sapien pulvinar odio, sed.
+                                Após a conversa inicial, é feita uma reunião interna onde revisamos as notas feitas no primeiro contato e então listamos as funcionalidades que precisarão ser implementadas sem ainda entrar em detalhes do <b>como</b>. Isso é feito para que possamos alinhar com os clientes se a solução que será desenhada de fato resolve os problemas apresentados. Essa etapa pode ser realizada mais de uma vez, até que ambas as partes estejam completamente alinhadas e satisfeitas.
                             </p>
                         </Col>
                 </Row>
@@ -44,7 +44,7 @@ function WorkComponent() {
                     <Col className='text-right'>
                         <h4> Brainstorming </h4>
                         <p>
-                            Suspendisse a nulla gravida, congue metus at, aliquam augue. Aenean congue vulputate egestas. Donec vulputate dui id sapien aliquet congue. Quisque quis erat vitae elit porttitor fringilla id sed nibh. Suspendisse eget ligula bibendum, aliquam quam in, efficitur lectus. Praesent lobortis, ante at suscipit sagittis, neque sapien pulvinar odio, sed.
+                        Com os requisitos levantados e validados, partimos para a etapa da brainstorming da solução. Aqui, inicialmente deixamos as ideias fluir sem filtro algum para que possamos levantar diversas formas de como pode ser a solução final. Em seguida, afunilamos para as três melhores possibilidades para que então, utilizando metodologias de (pensei naquele framework de esforço vs recompensa, algo assim) escolhemos a melhor solução com base na eficácia da solução, visando resolver todos os problemas de forma confiável, tempo de desenvolvimento para que o cliente tenha a solução no menor tempo possível e o custo, enxugando qualquer funcionalidade que não seja absolutamente necessária.
                         </p>
                     </Col>
                     <Col>
