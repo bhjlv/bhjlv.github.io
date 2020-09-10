@@ -2,6 +2,8 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container } from "reactstrap";
+import video from '../../assets/videos/header.mp4'
+import logo from '../../assets/img/logo.png'
 
 // core components
 
@@ -12,17 +14,16 @@ function LandingPageHeader() {
   return (
     <>
       <div className="page-header page-header-small">
-        <div
-          className="page-header-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg.png") + ")",
-          }}
-          ref={pageHeader}
-        ></div>
+        <video
+          className="page-header-video"
+          src={video}
+          autoPlay={true}
+          loop={true}
+        />
         <div className="content-center">
           <Container>
-            <h1 className="title">Somos uma empresa...</h1>
-            <h3 className="text-center">Criamos...</h3>
+            <img src={logo} />
+            <h3 className="text-center"> Astronomic tech solutions </h3>
             <div className="text-center">
               <button class="btn btn-default btn-lg">
                 Fale conosco

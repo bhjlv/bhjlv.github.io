@@ -3,6 +3,7 @@ import React from "react";
 // reactstrap components
 import { Container } from "reactstrap";
 
+import video from '../../assets/videos/header.mp4'
 // core components
 
 function WorkHeader() {
@@ -12,19 +13,15 @@ function WorkHeader() {
   return (
     <>
       <div className="page-header page-header-small">
-        <div
-          className="page-header-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg.png") + ")",
-          }}
-          ref={pageHeader}
-        ></div>
+        <video
+          className="page-header-video"
+          src={video}
+          autoPlay={true}
+          loop={true}
+        />
         <div className="content-center">
           <Container>
-            <h1 className="title">Como trabalhamos header</h1>
-            <h3 className="text-center">
-                Sed ac mi vitae libero mollis gravida ut eu justo. Nam laoreet lacinia enim, eget.
-            </h3>
+            <h1 className="title">Como trabalhamos</h1>
           </Container>
         </div>
       </div>
