@@ -24,6 +24,7 @@ function WorkComponent() {
             <Row>
                 <Col className='page-title'>
                     <h1> Como trabalhamos</h1>
+                    <p>Todo projeto começa com uma conversa. É quando os clientes conhecem a sigizy e nós exploramos e entendemos quais as suas dores e já começamos a imaginar possíveis formas de ajudar nos desafios apresentados.</p>
                 </Col>
             </Row>
             <Fade left>
