@@ -3,7 +3,7 @@ import {
     Container,
     Row,
     Col,
-    Button, Card, CardTitle, CardImg, CardText, CardFooter
+    Card, CardTitle, CardImg, CardText, CardFooter
 } from "reactstrap";
 
 //assets
@@ -53,8 +53,6 @@ const team = [
     },
 ] 
 
-const teamMapping = new Array(Object.values(team).length)
-
 
 function Team () {
     return (
@@ -67,9 +65,9 @@ function Team () {
                         {
                             Object.values(team).map( (member, index) => {
                                 return (
-                                    <Col>
+                                    <Col key={index}>
                                     <Card className='team-member-card'>
-                                        <CardImg src={member.image} /> 
+                                        <CardImg src={member.image} alt={`SIGIZY - sigizy.com - ${member.name}`} /> 
                                         <CardTitle> { member.name } </CardTitle>
                                         <CardText> { member.role } </CardText>
                                         <CardFooter> 
@@ -77,6 +75,7 @@ function Team () {
                                             className="btn btn-icon btn-round"
                                             color="info"
                                             href="https://www.linkedin.com/in/bernardo-favoreto/"
+                                            rel="noopener noreferrer"
                                             // onClick={(e) => e.preventDefault()}
                                             >
                                                 <i className="fab fa-linkedin"></i>
@@ -85,6 +84,7 @@ function Team () {
                                             className="btn btn-icon btn-round"
                                             color="info"
                                             href="https://github.com/Bernardo-Favoreto"
+                                            rel="noopener noreferrer"
                                             // onClick={(e) => e.preventDefault()}
                                             >
                                                 <i className="fab fa-github"></i>

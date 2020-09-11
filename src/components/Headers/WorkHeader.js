@@ -7,8 +7,6 @@ import video from '../../assets/videos/header.mp4'
 // core components
 
 function WorkHeader() {
-  let pageHeader = React.createRef();
-
 
   return (
     <>
@@ -21,7 +19,7 @@ function WorkHeader() {
         />
         <div className="content-center">
           <Container>
-            <h1 className="title">Como trabalhamos</h1>
+            <h1 className="title">COMO TRABALHAMOS</h1>
           </Container>
         </div>
       </div>

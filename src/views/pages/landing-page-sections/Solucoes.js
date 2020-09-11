@@ -43,29 +43,29 @@ function Solucoes() {
 
                 <Row className="whatwedo">
                 <Col className="ml-auto mr-auto text-center" md="4">
-                    <img src={api_svg} className='tech-icon'/>
+                    <img src={api_svg} className='tech-icon' alt='...'/>
                     <h4>RESTful APIs e Back-end</h4>
                 </Col>
                 <Col className="ml-auto mr-auto text-center" md="4">
-                    <img src={web_svg} className='tech-icon'/>
+                    <img src={web_svg} className='tech-icon' alt='...'/>
                     <h4>Aplicações web</h4>
                 </Col>
                 <Col className="ml-auto mr-auto text-center" md="4">
-                    <img src={data_science_svg} className='tech-icon'/>
+                    <img src={data_science_svg} className='tech-icon' alt='...'/>
                     <h4>Ciência de Dados</h4>
                 </Col>
                 </Row>
                 <Row className="whatwedo">
                 <Col className="ml-auto mr-auto text-center" md="4">
-                    <img src={mobile_svg} className='tech-icon'/>
+                    <img src={mobile_svg} className='tech-icon' alt='...'/>
                     <h4>Aplicações mobile</h4>
                 </Col>
                 <Col className="ml-auto mr-auto text-center" md="4">
-                    <img src={ai_svg} className='tech-icon'/>
+                    <img src={ai_svg} className='tech-icon' alt='...'/>
                     <h4>Soluções de Inteligência Artificial</h4>
                 </Col>
                 <Col className="ml-auto mr-auto text-center" md="4">
-                    <img src={desktop_svg} className='tech-icon'/>
+                    <img src={desktop_svg} className='tech-icon' alt='...'/>
                     <h4>Aplicações desktop</h4>
                 </Col>
                 </Row>

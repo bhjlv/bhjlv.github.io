@@ -30,7 +30,7 @@ function WorkComponent() {
             <Fade left>
                 <Row className='metodologia-item'> 
                         <Col>
-                            <img src={undraw_requirements} />
+                            <img src={undraw_requirements}  alt='...'/>
                         </Col>
                         <Col className='text-left'>
                             <h4> Estudo de requisitos</h4>
@@ -49,14 +49,14 @@ function WorkComponent() {
                         </p>
                     </Col>
                     <Col>
-                        <img src={undraw_brainstorm} />
+                        <img src={undraw_brainstorm} alt='...' />
                     </Col>
                 </Row>
             </Fade>
             <Fade left>
                 <Row className='metodologia-item'>
                     <Col>
-                        <img src={undraw_idea} />
+                        <img src={undraw_idea}  alt='...'/>
                     </Col>
                     <Col className='text-left'>
                         <h4> Validação de Ideias </h4>
@@ -75,14 +75,14 @@ function WorkComponent() {
                         </p>
                     </Col>
                     <Col>
-                        <img src={undraw_programming} />
+                        <img src={undraw_programming} alt='...' />
                     </Col>
                 </Row>
             </Fade>
             <Fade left>
                 <Row className='metodologia-item'>
                     <Col>
-                        <img src={undraw_delivery} />
+                        <img src={undraw_delivery}  alt='...' />
                     </Col>
                     <Col className='text-left'>
                         <h4>Comunicação e Entregas </h4>
@@ -101,7 +101,7 @@ function WorkComponent() {
                         </p>
                     </Col>
                     <Col>
-                        <img src={undraw_documentation} />
+                        <img src={undraw_documentation}  alt='...'/>
                     </Col>
                 </Row>
             </Fade>

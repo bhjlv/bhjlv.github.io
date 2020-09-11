@@ -10,7 +10,6 @@ import {
 import { Link } from "react-router-dom";
 //assets
 import "../../../assets/css/custom.css"
-import laptop from '../../../assets/img/laptop.png' 
 
 
 import brainstorm_svg from '../../../assets/svg/idea.svg'
@@ -19,7 +18,6 @@ import dev_svg from '../../../assets/svg/rocket.svg'
 import documentation_svg from '../../../assets/svg/browser.svg'
 import validation_svg from '../../../assets/svg/finger.svg'
 import requirements_svg from '../../../assets/svg/wrench.svg'
-import undraw_roadmap from '../../../assets/svg/undraw_roadmap.svg'
 
 function Work () {
     return (

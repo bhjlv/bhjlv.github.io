@@ -13,16 +13,6 @@ import { Link } from "react-router-dom";
 //style
 import "../../../assets/css/custom.css"
 
-
-import {
-    DiNodejsSmall,
-    DiReact, 
-    DiJavascript, 
-    DiPython,
-    DiMongodb,
-    DiHtml5,
-    DiCss3,
-} from 'react-icons/di'
 import {
     SiKubernetes,
     SiRabbitmq,
@@ -64,7 +54,7 @@ function Tecnologias () {
                         <Container className="technologies">
                         <Row>
                             <Col xs={12} sm={12} md={6}> 
-                                <img src={undraw_code_svg} className='technologies-image'  />
+                                <img src={undraw_code_svg} className='technologies-image' alt='...'  />
                             </Col>
                             <Col xs={12} sm={12} md={6}>
                                 <Container className='technologies-list'>

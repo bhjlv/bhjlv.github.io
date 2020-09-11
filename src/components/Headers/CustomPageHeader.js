@@ -1,15 +1,13 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container } from "reactstrap";
+import { Container } from "reactstrap";
 import video from '../../assets/videos/header.mp4'
 import logo from '../../assets/img/logo.png'
 
 // core components
 
 function LandingPageHeader() {
-  let pageHeader = React.createRef();
-
 
   return (
     <>
@@ -22,10 +20,10 @@ function LandingPageHeader() {
         />
         <div className="content-center">
           <Container>
-            <img src={logo} />
+            <img src={logo} alt='SIGIZY - logo' />
             <h3 className="text-center"> Astronomic tech solutions </h3>
             <div className="text-center">
-              <button class="btn btn-default btn-lg">
+              <button className="btn btn-default btn-lg">
                 Fale conosco
               </button>
               {/* <Button
