@@ -45,7 +45,7 @@ function WorkComponent() {
                     <Col className='text-right'>
                         <h4> Brainstorming </h4>
                         <p>
-                        Com os requisitos levantados e validados, partimos para a etapa da brainstorming da solução. Aqui, inicialmente deixamos as ideias fluir sem filtro algum para que possamos levantar diversas formas de como pode ser a solução final. Em seguida, afunilamos para as três melhores possibilidades para que então, utilizando metodologias de (pensei naquele framework de esforço vs recompensa, algo assim) escolhemos a melhor solução com base na eficácia da solução, visando resolver todos os problemas de forma confiável, tempo de desenvolvimento para que o cliente tenha a solução no menor tempo possível e o custo, enxugando qualquer funcionalidade que não seja absolutamente necessária.
+                        Com os requisitos levantados e validados, partimos para a etapa da brainstorming da solução. Aqui, inicialmente deixamos as ideias fluir sem filtro algum para que possamos levantar diversas formas de como pode ser a solução final. Em seguida, afunilamos para as três melhores possibilidades.
                         </p>
                     </Col>
                     <Col>
@@ -61,7 +61,7 @@ function WorkComponent() {
                     <Col className='text-left'>
                         <h4> Validação de Ideias </h4>
                         <p>
-                            Suspendisse a nulla gravida, congue metus at, aliquam augue. Aenean congue vulputate egestas. Donec vulputate dui id sapien aliquet congue. Quisque quis erat vitae elit porttitor fringilla id sed nibh. Suspendisse eget ligula bibendum, aliquam quam in, efficitur lectus. Praesent lobortis, ante at suscipit sagittis, neque sapien pulvinar odio, sed.
+                            Com as melhores ideias bem definidas, partimos então para etapa de validação, onde aplicamos metodologias como SWOT, Diagrama Esforço x Recompensa e outras abordagens que se adequam ao tipo de solução, escolhendo a solução mais viável com base na eficácia, potencial em resolver todos os problemas de forma confiável, tempo de desenvolvimento e custo, enxugando qualquer funcionalidade que não seja absolutamente necessária 
                         </p>
                     </Col>
                 </Row>
@@ -71,7 +71,7 @@ function WorkComponent() {
                     <Col className='text-right'>
                         <h4> Desenvolvimento </h4>
                         <p>
-                            Suspendisse a nulla gravida, congue metus at, aliquam augue. Aenean congue vulputate egestas. Donec vulputate dui id sapien aliquet congue. Quisque quis erat vitae elit porttitor fringilla id sed nibh. Suspendisse eget ligula bibendum, aliquam quam in, efficitur lectus. Praesent lobortis, ante at suscipit sagittis, neque sapien pulvinar odio, sed.
+                            Quando ambas as partes estão suficientemente satisfeitas com a solução desenhada, e a proposta é aceita pelo cliente, já ciente dos custos de desenvolvimento e implantação, inicia-se a etapa de desenvolvimento. Sua primeira etapa consiste na elaboração de um cronograma, definindo prazos para desenvolvimento de cada funcionalidade, bem como datas para reuniões de acompanhamento do projeto. Em seguida inicia-se a implementação de scripts aplicando metodologia ágil com Scrum.
                         </p>
                     </Col>
                     <Col>
@@ -87,7 +87,7 @@ function WorkComponent() {
                     <Col className='text-left'>
                         <h4>Comunicação e Entregas </h4>
                         <p>
-                            Suspendisse a nulla gravida, congue metus at, aliquam augue. Aenean congue vulputate egestas. Donec vulputate dui id sapien aliquet congue. Quisque quis erat vitae elit porttitor fringilla id sed nibh. Suspendisse eget ligula bibendum, aliquam quam in, efficitur lectus. Praesent lobortis, ante at suscipit sagittis, neque sapien pulvinar odio, sed.
+                            Encaramos nossos clientes como parceiros. Por isso, durante o processo de desenvolvimento, pequenas entregas podem ser determinadas, com o intuito do cliente ter total percepção das etapas que foram, estão sendo e serão implementadas. Respeito, comprometimento, foco e aberttransparênciaura são valores que carregamos conosco, e portanto a comunicação aberta é fundamental para todo e qualquer projeto que desenvolvemos. É fundamental para nós que nossos parceiros se sintam seguros e confiantes com a qualidade e eficiência das soluções que construímos. 
                         </p>
                     </Col>
                 </Row>
@@ -97,7 +97,7 @@ function WorkComponent() {
                     <Col className='text-right'>
                         <h4> Documentação </h4>
                         <p>
-                            Suspendisse a nulla gravida, congue metus at, aliquam augue. Aenean congue vulputate egestas. Donec vulputate dui id sapien aliquet congue. Quisque quis erat vitae elit porttitor fringilla id sed nibh. Suspendisse eget ligula bibendum, aliquam quam in, efficitur lectus. Praesent lobortis, ante at suscipit sagittis, neque sapien pulvinar odio, sed.
+                            Por fim, com a solução e entregue e devidamente validada e aprovada, iniciamos a última etapa, de documentação do projeto, disponibilizando códigos-fonte e manuais e, caso exista a possibilidade, apresentação de uma prospecção de continuação, otimização ou até mesmo desenvolvimento de novos projetos, com o intuito de deixar as portas abertas novas parcerias. 
                         </p>
                     </Col>
                     <Col>
